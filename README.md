@@ -1,2 +1,2 @@
 # MDDTA
-MDDTA: a drug target binding affinity pre-diction method based on molecular dynam-ics simulation data enhancement.
+MDDTA: a drug target binding affinity prediction method based on molecular dynamics simulation data enhancement.
