@@ -162,7 +162,6 @@ def run(seed, args):
 
     train_data = pd.concat([train_data, process_data_train_valid[process_data_train_valid['native'] == False]])
     print(f"Train data: {len(train_data)}, Val data: {len(val_data)}, Test data: {len(test_data)}")
-    train_data,val_data,test_data = train_data[:100],val_data[:100],test_data[:100]
     s = time()
     #train_val_loder = read_data(process_data_train_valid, args.decoy_weight, args.batch_size, args.protein_emb_path, args.protein_coords_path, args.ligand_emb_path, args.cache_path["train_val"], device=device, shuffle=True)
     train_loader = read_data(train_data, args.decoy_weight, args.batch_size, args.protein_emb_path, args.protein_coords_path, args.ligand_emb_path, args.cache_path["train"], device=device, shuffle=True)
