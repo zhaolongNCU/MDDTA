@@ -1,0 +1,13 @@
+receptor = /home/zhaol409100220027/zhaol409100220027/Drugbank_screen/7BQY.pdbqt
+ligand = /home/zhaol409100220027/zhaol409100220027/Drugbank_screen/ligand/DB02663.pdbqt
+center_x = 8.066
+center_y = -1.463
+center_z = 25.21
+size_x = 23.8333333333
+size_y = 23.8333333333
+size_z = 23.8333333333
+out = /home/zhaol409100220027/zhaol409100220027/Drugbank_screen/output/DB02663_out_qvinaw.pdbqt
+cpu = 12
+exhaustiveness = 32
+num_modes = 30
+energy_range = 4
