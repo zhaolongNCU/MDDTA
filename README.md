@@ -102,6 +102,7 @@ cd Drugbank_screen
 python config_genearation.py
 ```
 Here in the ligand folder we put only 4 compound files, the full file [drugbank_compound.zip](https://zenodo.org/records/15137143) for drug screening has been uploaded to the zenodo platform and is available for download.
+
 **3.Docking**
 Running the following code will perform molecular docking and generate a complex file to be placed in the output folder.
 ```
