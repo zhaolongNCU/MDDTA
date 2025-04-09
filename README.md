@@ -101,6 +101,7 @@ python main.py
 
 ## ⏳ Drug Screening  
 In this section we will briefly describe some of the codes used in drug screening.
+![Drugbank_screen](https://github.com/zhaolongNCU/MDDTA/blob/main/img/Drugbank_screen.jpg)
 
 ### Qvina-W Molecular Docking  
 The necessary files for molecular docking with Qvina-W are located in the `Drugbank_screen` folder.
