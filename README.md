@@ -49,7 +49,7 @@ h5py==3.8.0
 dgl==1.1.3
 ```
 
-The code is compatible with Python 3.7, CUDA 11.7, and runs on Linux systems. Although the code does not require large amounts of memory, we recommend using machines with at least 48GB of RAM for efficient execution.
+The code is compatible with Python 3.7, CUDA 11.7, and runs on Linux systems. We recommend using machines with at least 48GB of RAM for efficient execution.
 
 ## 📚 Dataset  
 The MD-PDBbind dataset, which we constructed, is available on Zenodo. You can download it from the following link:  
@@ -100,7 +100,7 @@ python main.py
 ```
 
 ## ⏳ Drug Screening  
-This section provides details on drug screening using the model.
+In this section we will briefly describe some of the codes used in drug screening.
 
 ### Qvina-W Molecular Docking  
 The necessary files for molecular docking with Qvina-W are located in the `Drugbank_screen` folder.
