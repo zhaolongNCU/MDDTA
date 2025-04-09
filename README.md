@@ -14,9 +14,7 @@
 This is a code repository for MDDTA, a deep learning based drug target binding affinity prediction model. This repository will present the data and code used for training, as well as the processes involved in drug screening.
 
 ## 🔑 Architecture
-https://github.com/zhaolongNCU/MDDTA/blob/main/img/MDDTA.jpg
-
-
+![MDDTA](https://github.com/zhaolongNCU/MDDTA/blob/main/img/MDDTA.jpg)
 ## 🔨 Installation
 First, you need to clone our code to your operating system.
 
@@ -80,7 +78,7 @@ python main.py
 
 ## ⏳ Drug screening
 In this section we will briefly describe some of the codes used in drug screening.
-https://github.com/zhaolongNCU/MDDTA/blob/main/img/Drugbank_screen.jpg
+![Drugbank_screen](https://github.com/zhaolongNCU/MDDTA/blob/main/img/Drugbank_screen.jpg)
 ### Qvina-W Molecular Docking
 The files needed for molecular docking using Qvina-W are placed in the Drugbank_screen folder as follows:
 
