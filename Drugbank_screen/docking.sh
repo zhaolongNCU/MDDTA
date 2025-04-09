@@ -16,7 +16,7 @@ for config_file in "$config_folder"/*.txt; do
         progress=$((current_file * 100 / total_files))
         echo -n "Processing $current_file/$total_files ($progress%) : "
         seq -s '=' $progress | tr -d '[:digit:]'  
-        echo " finished! "
+        echo " Finished! "
         qvinaw --config "$config_file"
     fi
 done
