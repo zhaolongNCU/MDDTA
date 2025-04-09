@@ -83,6 +83,7 @@ In this section we will briefly describe some of the codes used in drug screenin
 The files needed for molecular docking using Qvina-W are placed in the Drugbank_screen folder as follows:
 
 **1.Install Qvina-W**
+
 Install the molecular docking software [Qvina-W](https://qvina.github.io/):
 
 ```
@@ -96,6 +97,7 @@ Qvina-W uses the following commands, where config.txt is the configuration file 
 qvina-w --config config.txt
 ```
 **2.Generate config.txt**
+
 Go to the drug screening folder Drugbank_screen, and run the code to generate the config.txt file:
 ```
 cd Drugbank_screen
@@ -104,6 +106,7 @@ python config_genearation.py
 Here in the ligand folder we put only 4 compound files, the full file [drugbank_compound.zip](https://zenodo.org/records/15137143) for drug screening has been uploaded to the zenodo platform and is available for download.
 
 **3.Docking**
+
 Running the following code will perform molecular docking and generate a complex file to be placed in the output folder.
 ```
 ./docking.sh
